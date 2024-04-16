@@ -1,0 +1,120 @@
+:root {
+  --color-primary: #342c62;
+  --color-secondary: #c5c2db;
+  --color-green: #216342;
+  --color-red: #a72525;
+  --color-gray: #e3e3e3;
+  --color-dark-gray: #323232;
+  --color-disabled: #808080;
+}
+
+.button {
+  font-size: 17px;
+  font-family: "Nunito Sans";
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 8px;
+  background: var(--color-primary);
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  float: right;
+  transition: 0.4s;
+}
+
+.button-mobile {
+}
+
+.button:hover {
+  background: var(--color-secondary);
+  border-color: var(--color-secondary);
+  color: var(--color-dark-gray);
+}
+
+.button--inverse,
+.button:active {
+  background: white;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.button--inverse:active {
+  background: white;
+  color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.button:disabled {
+  background: var(--color-gray);
+  color: var(--color-disabled);
+  border-color: var(--color-gray);
+}
+
+.button--green {
+  background: var(--color-green);
+  border-color: var(--color-green);
+}
+
+.button--red {
+  background: white;
+  color: var(--color-red);
+  border-color: var(--color-red);
+}
+
+.button--gray {
+  background: var(--color-gray);
+  color: var(--color-dark-gray);
+  border-color: var(--color-gray);
+}
+
+.button--green:hover,
+.button--red:hover,
+.button--gray:hover {
+  background: var(--color-dark-gray);
+  border-color: var(--color-dark-gray);
+  color: white;
+}
+
+.button--green:active {
+  background: white;
+  color: var(--color-green);
+  border-color: var(--color-green);
+}
+
+.button--red:active {
+  background: var(--color-red);
+  border-color: var(--color-red);
+}
+
+.button--gray:active {
+  background: white;
+  color: var(--color-gray);
+  border-color: var(--color-gray);
+}
+
+.button--left {
+  float: left;
+  margin-left: 0;
+}
+
+.button--bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.button--wide {
+  width: 87.5%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .button {
+    font-size: 14px;
+  }
+}
