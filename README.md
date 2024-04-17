@@ -2,7 +2,7 @@
 
 ## Welcome to Toolit!
 
-Welcome to "Toolit" – my first MERN project. We, a team of 3 developers and 4 designers, collaborated to create this helpful web app in less than 8 weeks. Toolit helps robotics instructures to manages their tools, parts and projects.
+Welcome to "Toolit" – my first MERN project. We, a team of 3 developers and 4 designers, collaborated to create this helpful web app in less than 8 weeks. Toolit helps robotics instructurers to manages their tools, parts and projects.
 
 ## Purpose
 
