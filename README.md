@@ -109,15 +109,6 @@ To view the website please click [Here!](http://toolit.ca)!
 - And our Presentation [Here](./Toolit_Presentation.pdf)
 - React Components Tree [Here](./Toolit-React-Components-Tree.pdf)
 - Userflow [Here](./userflow_Toolit.png)
-  
-
-
-
-
-)
-- React Components Tree [Here]()
-- Userflow [Here]()
-  
 
 
 
