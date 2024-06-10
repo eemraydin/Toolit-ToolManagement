@@ -50,7 +50,7 @@ To view the website please click [Here!](http://toolit.ca)!
 
 
 ## Program Walk-through
-- Please check out our website [Here](toolit.ca)
+- Please check out our website [Here](https://toolit.ca/home)
 - Our Presentation [Here](./Toolit_Presentation.pdf)
 - React Components Tree [Here](./Toolit-React-Components-Tree.pdf)
 - Userflow [Here](./userflow_Toolit.png)
